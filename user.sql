@@ -46,8 +46,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `fname`, `lname`, `email`, `username`, `password`, `address`, `city`, `phone`) VALUES
 (1, 'ss', 'ss', 'a@b.com', 'ss', 'ss', 'cst,colaba,mumbai', 'mumbai', 'phone'),
-(2, 'we', 'we', 'a@b.com', 'we', 'we', 'we', 'mumbai', 'phone'),
-(3, 'ayush', 'gupta', 'a@b.com', 'ayush', '123', 'sfgfg', 'Mumbai', '346456456');
+(2, 'we', 'we', 'a@b.com', 'we', 'we', 'we', 'mumbai', 'phone');
 
 --
 -- Indexes for dumped tables
