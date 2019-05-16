@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id = "main">
+   <div id = "info">
+       <h2>Login here</h2>
+       <form action="login.php" method ="POST">
+   <label><b>Username :</b></label>
+   <input type = "text" name ="uname" placeholder="Username"><br>
+   <label><b>Password :</b></label>
+   <input type="password" name="pass" placeholder="password"><br>
+   <button style:"background-color : #6495ed;color : white ;" type="submit"><b>Submit Login</b></button>
+       </form>
+
+       <br><br>
+
+       <form action="signup.php" method="POST"> 
+        <h2>Signup here</h2>
+        <label >Username : </label>
+        <input type="text" name="uname"><br>
+        <label>Email Address : </label>
+        <input type="text" name="email" placeholder="xyz@gmail.com"><br>
+        <label>Password</label>
+        <input type="text" name="pass"><br>
+        <button style:"background-color : #6495ed;color : white ;" type="submit">Submit Signup</button> 
+       </form>
+
+
+   </div>
+</div>
+
+   
+</body>
+</html>

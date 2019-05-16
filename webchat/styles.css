@@ -1,0 +1,44 @@
+body{
+    background-color: gold;
+}
+#main{
+    height: 450px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 400px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.output{
+    background-color: white;
+    box-shadow: 0px 1px 1px #000;
+    height: 250px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    width: 50%;
+}
+
+
+#info{
+    margin-left: 20px;
+    padding-top: 2px;
+}
+input[type=text]
+{
+    width: 260px;
+    box-sizing: border-box;
+    border: 2px solid #dc143c;
+    border-radius: 4px;
+}
+
+textarea{
+    background-color: #dcdcdc;
+    width: 350px;
+
+}
+
